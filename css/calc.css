@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 0px 0px 7px black;
+    margin: 100px auto;
+    max-width: 300px;
+    max-height: 600px;
+    background-color:darkgray;
+}
+
+#screen {
+    border: 2px solid gray;
+    height: 50px;
+    background-color: black;
+    color: yellow;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 2px;
+    padding-top: 0px;
+    padding-right: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 39px;
+    overflow: hidden;
+}
+
+.btn {
+    display: block;
+    border: 2px solid gray;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 70px;
+    height: 70px;
+    padding: 27px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+#equal {
+    width: 142px;
+}
+
+#c {
+    background-color: red;
+    color: white;
+}
+
+#c:hover {
+    background-color: darkred;
+}
+
+#perc {
+    
+}
+
+#sqrt {
+    
+}
+
+#divisor {
+    
+}
+
+#mult {
+    
+}
+
+#minus {
+    
+}
+
+#plus {
+    
+}
+
